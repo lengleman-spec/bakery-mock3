@@ -82,9 +82,15 @@ body {
   display: flex;
 }
 
-/* =========================
-   Desktop styles
-   ========================= */
+/* HERO SECTION */
+.hero-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(imgs/about-us.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
 @media (min-width: 768px) {
   .hamburger {
     display: none;
