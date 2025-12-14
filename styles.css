@@ -123,12 +123,19 @@ body {
 }
 
 /* BEST SELLERS */
+.best-sellers {
+  background-color: var(--secondary-bg);
+  padding-top: 3rem;
+}
+
 .best-sellers-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin: 2rem;
-  background-color: var(--secondary-bg);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 80%;
 }
 
 .best-sellers-container p {
@@ -146,6 +153,12 @@ body {
   width: 80%;
   margin: 0 auto;
   padding: 0;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .card-img {
