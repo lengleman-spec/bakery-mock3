@@ -136,6 +136,37 @@ body {
   margin-top: 1rem;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--primary-brown);
+  border-radius: 16px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card-img {
+  height: 300px;
+  border-radius: 16px;
+
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  margin: 0;
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.rating-text {
+  margin-top: 0.5rem;
+}
+
 @media (min-width: 768px) {
   .hamburger {
     display: none;
