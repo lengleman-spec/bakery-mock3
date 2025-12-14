@@ -17,6 +17,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.title-h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 /* Header */
 .header {
   background: var(--secondary-bg);
@@ -120,6 +125,15 @@ body {
 /* BEST SELLERS */
 .best-sellers-container {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2rem;
+  background-color: var(--secondary-bg);
+}
+
+.best-sellers-container p {
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
