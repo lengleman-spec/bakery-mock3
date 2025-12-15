@@ -262,6 +262,16 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+address p {
+  display: inline-block;
+}
+
+.location,
+.phone {
+  display: flex;
+  gap: 0.5rem;
+}
+
 @media (min-width: 768px) {
   .hamburger {
     display: none;
