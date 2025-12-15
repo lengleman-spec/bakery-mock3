@@ -182,9 +182,13 @@ body {
 }
 
 /* REVIEWS SECTION */
+.reviews {
+  background-color: var(--secondary-bg);
+}
+
 .review-container {
   display: flex;
-  gap: 1.5rem;
+  gap: 3rem;
   padding: 1rem;
 }
 
@@ -196,6 +200,53 @@ body {
 .review-img {
   height: 150px;
   border-radius: 50%;
+}
+
+.review-text h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* SUBSCRIBE SECTION */
+
+.subscribe {
+  background-color: var(--primary-brown);
+  color: var(--secondary-bg);
+  padding: 3rem 1rem;
+}
+
+.subscribe-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* KEY PART */
+.subscribe-btns {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.subscribe-btns input {
+  width: 100%;
+  padding: 0.75rem 7rem 0.75rem 1rem; /* extra right padding for button */
+  border-radius: 999px;
+  border: none;
+  font-size: 1rem;
+}
+
+.subscribe-btns button {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  border: none;
+  background-color: var(--secondary-bg);
+  color: var(--primary-brown);
+  font-weight: 600;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
