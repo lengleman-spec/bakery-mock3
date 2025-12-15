@@ -309,11 +309,15 @@ address p {
   .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2rem 1rem;
+    margin: 0 2rem;
   }
 
   .card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    width: 100%;
+    margin: 1rem 0;
   }
 }
