@@ -260,6 +260,7 @@ li {
 .footer-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin: 1rem;
 }
 
 address p {
@@ -270,6 +271,10 @@ address p {
 .phone {
   display: flex;
   gap: 0.5rem;
+}
+
+.footer-link {
+  color: var(--primary-brown);
 }
 
 @media (min-width: 768px) {
