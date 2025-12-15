@@ -273,8 +273,17 @@ address p {
   gap: 0.5rem;
 }
 
+.footer-col h4 {
+  color: var(--primary-font);
+}
+
 .footer-link {
   color: var(--primary-brown);
+}
+
+.footer-link:hover {
+  cursor: pointer;
+  font-weight: 700;
 }
 
 @media (min-width: 768px) {
