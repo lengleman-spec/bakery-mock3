@@ -221,7 +221,6 @@ body {
   text-align: center;
 }
 
-/* KEY PART */
 .subscribe-btns {
   position: relative;
   margin-top: 1.5rem;
@@ -230,7 +229,7 @@ body {
 .subscribe-btns input {
   width: 100%;
   padding: 0.75rem 7rem 0.75rem 1rem; /* extra right padding for button */
-  border-radius: 999px;
+  border-radius: 100px;
   border: none;
   font-size: 1rem;
 }
@@ -240,11 +239,11 @@ body {
   top: 50%;
   right: 0.5rem;
   transform: translateY(-50%);
-  padding: 0.6rem 1.2rem;
-  border-radius: 999px;
-  border: none;
-  background-color: var(--secondary-bg);
-  color: var(--primary-brown);
+  padding: 0.6rem 1.4rem;
+  border-radius: 100px;
+  border: 2px solid var(--secondary-bg);
+  background-color: var(--primary-brown);
+  color: var(--secondary-bg);
   font-weight: 600;
   cursor: pointer;
 }
