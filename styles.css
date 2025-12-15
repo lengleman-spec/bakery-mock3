@@ -286,6 +286,8 @@ address p {
   font-weight: 700;
 }
 
+/* MEDIA QUERIES */
+
 @media (min-width: 768px) {
   .hamburger {
     display: none;
@@ -302,5 +304,16 @@ address p {
   .nav-links li a {
     border: none;
     padding: 0 1rem;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 }
