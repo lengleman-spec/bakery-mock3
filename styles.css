@@ -91,6 +91,10 @@ li {
   border-top: 1px solid #e0d6c8;
 }
 
+.nav-links a:hover {
+  color: #272727;
+}
+
 /* Show menu when checked */
 #menu-toggle:checked ~ .nav-links {
   display: flex;
@@ -351,8 +355,10 @@ address p {
 
   .card-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem 1rem;
+    justify-content: center;
+    justify-items: center;
     margin: 0 2rem;
   }
 
