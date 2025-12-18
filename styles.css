@@ -92,7 +92,8 @@ li {
 }
 
 .nav-links a:hover {
-  color: #272727;
+  color: var(--primary-brown);
+  font-weight: 700;
 }
 
 /* Show menu when checked */
@@ -132,6 +133,16 @@ li {
 }
 
 .btn-primary {
+  background-color: var(--primary-brown);
+  color: var(--secondary-bg);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-bg);
+  color: var(--primary-brown);
+}
+
+.btn-secondary:hover {
   background-color: var(--primary-brown);
   color: var(--secondary-bg);
 }
@@ -260,6 +271,10 @@ li {
   color: var(--secondary-bg);
   font-weight: 600;
   cursor: pointer;
+}
+
+.subscribe-btn:hover {
+  background: var(--secondary-brown);
 }
 
 /* FOOTER SECTION */
